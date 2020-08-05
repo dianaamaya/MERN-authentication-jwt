@@ -40,7 +40,7 @@ npm run start-dev - to run backend and frontend servers
 
 ## DESCRIPTION
 
-** Actions: **
+**Actions:**
 
 - User can create an account using local auth
 - User can sign in using existing local account
@@ -52,14 +52,14 @@ npm run start-dev - to run backend and frontend servers
 - User can link/unlink the Facebook account to local account
 - User can get dashboard information if it is authenticated
 
-** The creation of an account or the login in the application locally: ** 
+**The creation of an account or the login in the application locally:** 
 
 - User fill a form to sign in / sign up
 - User sends data (requests a token from the server - HTTP)
 - If data is ok, user is signed in / signed up
 - server sends a token through a cookie
 
-** The creation of an account or the login in the application by third parties (Google, Facebook) basically consists of the following: **
+**The creation of an account or the login in the application by third parties (Google, Facebook) basically consists of the following:**
 
 - User click on Google/Facebook buttons to sign in / sign up / link / unlink
 - When buttons are clicked, it requests a token to third parties (Google, Facebook).
@@ -70,7 +70,8 @@ npm run start-dev - to run backend and frontend servers
 - If token validation is ok, it gets the current user data, and sign in / sign up / link / unlink
 - Server sends a new token of the app through a cookie.
 
-* The checkAuth component is responsible for protecting routes, on the client side. In case the user is not authenticated, it will not be possible to access the private views (dashboard). *
+
+**The checkAuth component is responsible for protecting routes, on the client side. In case the user is not authenticated, it will not be possible to access the private views (dashboard).**
 
 ## TO IMPROVE
 
