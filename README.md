@@ -1,12 +1,8 @@
-#TITLE
-
-logging system with JWT using MERN Stack
-
-#DESCRIPTION
+# Logging system with JWT using MERN Stack
 
 This application allows users to sign in / sign up through the strategies: Local, Google and Facebook. This project was developed with MERN Stack (MongoDB, Express JS, React JS and Node JS) and JWT (Json Web Tokens - for authentication).
 
-#INSTALATION
+## INSTALATION
 
 1. prepare Google/Facebook credentials
 2. prepare database
@@ -16,13 +12,13 @@ This application allows users to sign in / sign up through the strategies: Local
 4. install the required modules in backend: npm install 
 5. install the required modules in frontend: cd client - npm install
 
-#RUN PROJECT
+## RUN PROJECT
 
 npm run server-dev - to run the backend server
 npm run client-dev - to run the frontend server
 npm run start-dev - to run backend and frontend servers
 
-#STRUCTURE
+## STRUCTURE
 
 - client : frontend server
     - src : all client files
@@ -42,7 +38,7 @@ npm run start-dev - to run backend and frontend servers
     - server: configurations of the backend server
 
 
-#DESCRIPTION
+## DESCRIPTION
 
 Actions:
 
@@ -76,14 +72,7 @@ The creation of an account or the login in the application by third parties (Goo
 
 The checkAuth component is responsible for protecting routes, on the client side. In case the user is not authenticated, it will not be possible to access the private views (dashboard).
 
-#TO IMPROVE
+## TO IMPROVE
 
 - add testing
 - stylize pages
-
-
-
-
-
-
-"# MERN-authentication-jwt" 
